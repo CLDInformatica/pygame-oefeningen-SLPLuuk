@@ -10,3 +10,11 @@ Gegeven is een lijst met games. Doe het volgende:
 '''
 
 games = ["Minecraft", "Rust", "GTA V", "Hayday", "Clash of clans"]
+
+games.append("Super Mario Bros")
+print(games)
+cijfer = int(input("Geef een getal tussen 0 en 5 "))
+print(games[cijfer])
+game = input("Geef een game ")
+games.append(game)
+print(games)

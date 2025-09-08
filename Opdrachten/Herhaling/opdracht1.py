@@ -13,3 +13,9 @@ Als je niet meer weet hoe alles werkt, zoek het dan even op!
 '''
 
 toetscijfer = float(input("Geef een cijfer:"))
+if toetscijfer >= 0.0 and toetscijfer <= 10.0:
+    print("dankjewel!")
+    if toetscijfer >= 8.0:
+        print("Wow, dat is heel hoog")
+else:
+    print("Dat is geen geldig cijfer...")

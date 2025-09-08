@@ -6,4 +6,12 @@
 # Voer de functie daarna uit met verschillende waarden en print de uitkomst
 
 def grootste(getal1, getal2):
-    return 0
+    if getal1 > getal2:
+        return getal1
+    elif getal2 > getal1:
+        return getal2
+    else:
+        return getal1
+
+c = grootste(12, 13)
+print(c)
